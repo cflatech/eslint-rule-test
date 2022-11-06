@@ -1,0 +1,26 @@
+{
+  "name": "eslint-rule-test",
+  "version": "1.0.0",
+  "description": "ESLintのルール作成テストリポジトリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cflatech/eslint-rule-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cflatech/eslint-rule-test/issues"
+  },
+  "homepage": "https://github.com/cflatech/eslint-rule-test#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.27.0",
+    "typescript": "^4.8.4"
+  }
+}
