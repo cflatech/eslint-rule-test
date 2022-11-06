@@ -27,6 +27,7 @@ const rule: Rule.RuleModule = {
     docs: {
       description: "許可されていないprocess.env.NODENV",
     },
+    fixable: "code",
     messages: {
       unexpectedProcessEnvNodeEnv:
         "process.env.NODE_ENVは許可されていません。myNodeenv()を利用してください",
