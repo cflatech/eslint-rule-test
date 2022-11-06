@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cflatech/eslint-rule-test#readme",
   "devDependencies": {
+    "@types/eslint": "^8.4.10",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
