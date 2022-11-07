@@ -1,6 +1,6 @@
 import { RuleTester } from "eslint";
 
-const rule = require("../src/no-process-node-env");
+import { rule } from "../src/no-process-node-env";
 
 const ruleTester = new RuleTester();
 
