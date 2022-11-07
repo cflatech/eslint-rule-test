@@ -11,8 +11,8 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "eslint-plugin-local-rules"],
   rules: {
-    "no-process-node-env": "error",
+    "local-rules/no-process-node-env": "error",
   },
 };
