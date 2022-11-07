@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./rules",
+    "rootDir": "src"
+  },
+  "exclude": [
+    "__tests__"
+  ]
+}
