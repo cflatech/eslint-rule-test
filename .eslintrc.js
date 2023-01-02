@@ -8,11 +8,12 @@ module.exports = {
   overrides: [],
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    ecmaVersion: "latest",
+    ecmaVersion: "2022",
     sourceType: "module",
   },
   plugins: ["@typescript-eslint", "eslint-plugin-local-rules"],
   rules: {
     "local-rules/no-process-node-env": "error",
+    "local-rules/no-soft-private": "error",
   },
 };

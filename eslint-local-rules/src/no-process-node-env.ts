@@ -19,7 +19,7 @@ const isIdentifier = (
   return expression.type === "Identifier";
 };
 
-export const rule: Rule.RuleModule = {
+const rule: Rule.RuleModule = {
   // ruleの説明
   meta: {
     type: "problem",
@@ -84,3 +84,5 @@ export const rule: Rule.RuleModule = {
     };
   },
 };
+
+module.exports = rule;
